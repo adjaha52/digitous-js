@@ -58,13 +58,35 @@ if(password.length>5 && score>limit )
     console.log("nothing");
 }
 // Bonus
-var random=Math.floor(Math.random ()*(6-1 +1) +6);
+var random=Math.floor(Math.random()*(6-1 +1) +1);
 console.log(random);
-if (random=6)
+if (random===6)
 { console.log("yes i win");
 
 }else {
     console.log("so close");
 }
 
-//
+//bonus2
+var month="january"
+switch (month) {
+    case "decembre":
+    case "janvier":
+    case "fevrier":
+
+        console.log ("Winter")
+       break;
+    case "mars":
+    case "avril":
+    case "mai":      
+        console.log("Spring")
+        break;
+    case "juin":
+    case "juillet":
+    case "aout": 
+        console.log ("Summer")
+
+    default:
+        console.log("Fall")
+        break;
+}
