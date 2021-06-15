@@ -68,7 +68,7 @@ if (random===6)
 }
 
 //bonus2
-var month="january"
+var month="septembre"
 switch (month) {
     case "decembre":
     case "janvier":
