@@ -90,3 +90,9 @@ switch (month) {
         console.log("Fall")
         break;
 }
+
+// Bonus 
+roundedNumber=3.6
+if (condition) {
+    
+}
