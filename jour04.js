@@ -27,12 +27,14 @@ console.log(cat2.isCute);
 console.log(cat2["isCute"]);
 
 //Even
+
 function checkIfEven(num){
     if(num%2===0)
     {
-        return ("even")
+        return "even";
     }
     else{
-        return("odd")
+        return "odd";
     }
 }
+checkIfEven(20);
