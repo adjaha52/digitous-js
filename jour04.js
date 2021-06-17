@@ -27,14 +27,46 @@ console.log(cat2.isCute);
 console.log(cat2["isCute"]);
 
 //Even
-
-function checkIfEven(num){
-    if(num%2===0)
-    {
-        return "even";
+function checkIfEven(num) {
+    if (num % 2=== 0){
+        console.log( "even");
     }
-    else{
-        return "odd";
+    else {
+        console.log("odd");
     }
 }
-checkIfEven(20);
+var num = 7;
+checkIfEven (num);
+
+// compare
+function compare(num1, num2){
+    if (num1>num2) {
+        console.log("num1 is bigger")
+    }
+    if (num2>num1) {
+        console.log("num2 is bigger")
+    }
+    else {
+        console.log("both are the same")
+    }
+}
+var num1=12;
+var num2=125;
+compare(num1,num2);
+
+// add up
+function addUp(num){
+    for (var i=1; i<= num; i++) {
+        num+=i
+        console.log(num)
+    }
+}
+var num = 12;
+addUp(num);
+
+
+
+
+
+
+    
