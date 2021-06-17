@@ -56,13 +56,41 @@ compare(num1,num2);
 
 // add up
 function addUp(num){
-    for (var i=1; i<= num; i++) {
-        num+=i
-        console.log(num)
-    }
+    while (  i<= num ) {
+        num+=i;
+        i++
+        }
 }
+console.log(num);
+var i=1
 var num = 12;
-addUp(num);
+
+// time
+function format(num){
+    var left= num
+    var result=0;
+    var heure= Math.floor(left/3600);
+    left -= heure*3600;
+    var minutes= Math.floor(left/60);
+    left-= minutes*60;
+    var secondes=left;
+    if (heure>0) {
+        result=result+heure+":";
+    }
+    if(minutes>0){
+        result=result+minutes+ ":";
+    }
+    if (secondes>0){
+        result=result+secondes+ ":";
+    }
+    return result;
+}
+format (3700);
+
+
+
+
+
 
 
 
