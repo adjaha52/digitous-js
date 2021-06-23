@@ -23,7 +23,11 @@ calculate (entier1, entier2,operateur);
 
 // exo2 
 function multiply ( num){
+    for (var i=0; i<=10; i++) {
+        console.log( i, "*",num=i*n);
+    }
     
 }
-
+var num=5
+multiply (num)
 
