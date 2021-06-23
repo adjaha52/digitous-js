@@ -1,6 +1,9 @@
  //alphabet
 
  function sortLetters (mot) {
-     return mot.sort();
+     var letters= word.split("")
+     console.log( letters)
  }
- sortLetters ("palmiers");
+sortLetters ("konexio");
+
+
