@@ -1,16 +1,16 @@
 // exo 1
 function calculate (entier1, entier2, operateur){
     if ( operateur === "+") {
-        console.log("entier1 + entier2");
+        console.log("entier1" + "entier2");
     }
         if( operateur==="-"){
-            console.log("entier1 - entier2");
+            console.log("entier1" -  "entier2");
         }
         if(operateur ==="/"){
-            console.log("entier1 / entier2");
+            console.log("entier1" / "entier2");
         }    
         if (operateur ==="%"){
-            console.log("entier1 % entier2");
+            console.log("entier1" % "entier2");
         } 
     else {
         console.log("rien à signaler");
@@ -19,5 +19,6 @@ function calculate (entier1, entier2, operateur){
 var entier1 = 4;
 var entier2 = 3;
 var operateur= "+"; 
-calculate (4, 3,"+");
+calculate (entier1, entier2,operateur);
+
 
