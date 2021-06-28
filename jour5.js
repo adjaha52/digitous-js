@@ -20,8 +20,8 @@ function calculate (entier1, entier2, operateur){
 }
 var entier1 = 4;
 var entier2 = 3;
-var operateur= "+"
-calculate (entier1, entier2,operateur);
+var operateur= +
+calculate (entier1, entier2, "operateur");
 
 // exo2 
 function multiply ( num){
