@@ -47,6 +47,7 @@ var shortNames = people.filter(function(person) {
   });
 
 // Exo4
-var  array= [1, "toto", 34, "javascript", 8];
+var  array= [1, "toto", 34, "javascript", 8]
+
   
 
